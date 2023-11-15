@@ -1,0 +1,42 @@
+    1  ls
+    2  kubectl get pods -n startinn-dev
+    6  gloud auth login
+    7  scp -v root@206.189.63.139
+    8  scp root@206.189.63.139
+    9  scp -v root@206.189.63.139 -P 22
+   10  touch text.txt
+   11  kubectl get pods
+   12  kubectl get pods -n startinn-dev
+   13  ls
+   14  ls -larth
+   15  gcloud container clusters get-credentials levi-startinn-n-gke-usea4-common --region us-east4
+   16  gcloud auth login
+   17  gcloud container clusters get-credentials levi-startinn-n-gke-usea4-common --region us-east4
+   18  kubectl get pods
+   19  kubectl get pods -n startinn-dev
+   20  kubectl cp test.txt startinn-dev/dev-aftershipsvc-be-deploy-86c559b788-zvq57
+   21  kubectl get pods
+   22  kubectl get pods -n startinn-dev
+   23  kubectl get pods -n startinn-pp
+   24  kubectl get deploy -n startinn-dev
+   25  kubectl delete deploy dev-landingpage-fe-deploy -n startinn-dev
+   26  kubectl get pods -n startinn-dev
+   27  kubectl logs -f dev-landingpage-fe-deploy-d4c6f5d48-6g6vx -n startinn-dev
+   28  kubectl get pods -n startinn-dev
+   29  kubectl get pods -n startinn-pp
+   30  kubectl delete deploy dev-landingpage-fe-deploy -n startinn-pp
+   31  kubectl delete deploy pp-landingpage-fe-deploy -n startinn-pp
+   32  kubectl get pods -n startinn-pp
+   33  kubectl delete deploy pp-aftershipsvc-be-deploy -n startinn-pp
+   34  kubectl get pods -n startinn-pp
+   35  kubectl get configmap -n startinn-pp
+   36  kubectl get configmap -n startinn-dev
+   37  kubectl delete deploy pp-aftershipsvc-be-deploy -n startinn-pp
+   38  kubectl get pods -n startinn-pp
+   39  kubectl logs -f pp-aftershipsvc-be-deploy-6447bfdb58-bx665 -n startinn-pp
+   40  kubectl exec -it pp-aftershipsvc-be-deploy-6447bfdb58-bx665 -n startinn-pp -- /bin/bash
+   41  gcloud auth login
+   42  clear
+   43  gcloud auth login
+   44  history
+45  kubectl describe deploy dev-storedb-be-deploy -n startinn-dev --> to get the imge id of the build for deployment
